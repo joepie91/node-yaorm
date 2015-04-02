@@ -1,0 +1,30 @@
+{
+  "name": "yaorm",
+  "version": "1.0.0",
+  "description": "Yet Another ORM based on Knex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.cryto.net:projects/joepie91/node-yaorm"
+  },
+  "keywords": [
+    "orm",
+    "knex",
+    "database",
+    "mysql",
+    "postgresql",
+    "sqlite"
+  ],
+  "author": "Sven Slootweg",
+  "license": "WTFPL",
+  "dependencies": {
+    "bluebird": "^2.9.22",
+    "knex": "^0.7.6"
+  },
+  "devDependencies": {
+    "pretty-error": "^1.1.1"
+  }
+}
